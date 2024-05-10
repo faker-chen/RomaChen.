@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mall-business" />
+        <module name="bookstore-common" />
+        <module name="bookstore-mgt" />
+        <module name="bookstore-job" />
+        <module name="mall-job" />
+        <module name="state" />
+        <module name="bookstore-business" />
+        <module name="mall-common" />
+        <module name="mall-mgt" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bookstore-business" options="-parameters" />
+      <module name="bookstore-common" options="-parameters" />
+      <module name="bookstore-job" options="-parameters" />
+      <module name="bookstore-mgt" options="-parameters" />
+      <module name="mall-business" options="-parameters" />
+      <module name="mall-common" options="-parameters" />
+      <module name="mall-job" options="-parameters" />
+      <module name="mall-mgt" options="-parameters" />
+      <module name="state" options="-parameters" />
+    </option>
+  </component>
+</project>
