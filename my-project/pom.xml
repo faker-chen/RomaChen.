@@ -16,7 +16,7 @@
         <module>bookstore/bookstore-common</module>
         <module>bookstore/bookstore-job</module>
         <module>bookstore/bookstore-mgt</module>
-        <module>state</module>
+        <module>application-state</module>
     </modules>
     <version>1.0</version>
 
